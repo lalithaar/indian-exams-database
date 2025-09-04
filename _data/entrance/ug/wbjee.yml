@@ -1,7 +1,3 @@
-# Entrance Exam Template for indian-exams-database
-# Copy this template and fill in the details for each exam
-# Remove comments and placeholder text when filling
-
 id: "wbjee" 
 name: "West Bengal Joint Entrance Examination" 
 acronym: "WBJEE" 
@@ -50,12 +46,13 @@ target_role: "Undergraduate admission to B.E./B.Tech, B.Pharm, and B.Arch progra
 conducting_body: "West Bengal Joint Entrance Examinations Board (WBJEEB)" 
 frequency: "annual" 
 exam_mode: "offline written (OMR-based)" 
-# Eligibility requirements
-min_qualification: "10+2 (or equivalent) with Physics and Mathematics plus one of Chemistry/Computer Science/Electronics/IT/Biology/Informatics Practices/Biotechnology/Technical Vocational Subject/Agriculture/Engineering Graphics/Business Studies/Entrepreneurship; minimum 45% aggregate in the three subjects (40% for SC/ST/OBC-A/OBC-B/PwD); and at least 30% in English" # Minimum educational qualification
-age_limit: "Minimum 17 years; no upper age limit except 25 years for Marine Engineering" # Max/min age, if any (write "No age limit" if none)
-eligibility_details: "Citizen of India or OCI (subject to competent authority approval; OCI eligible only for Unreserved seats in All-India quota); passed 10+2 or equivalent before the admission year or appearing in the same year; 10+2 must include Physics and Mathematics plus one approved subject; aggregate of at least 45% (40% for SC/ST/OBC-A/OBC-B/PwD) in the three subjects and minimum 30% in English; qualifying board recognized by Central/State government; institute/University-specific and domicile requirements may apply for certain seats; lower age limit 17 years, no upper limit except 25 for Marine Engineering" # Full detailed eligibility statement
 
-# Timeline information
+
+min_qualification: "10+2 (or equivalent) with Physics and Mathematics plus one of Chemistry/Computer Science/Electronics/IT/Biology/Informatics Practices/Biotechnology/Technical Vocational Subject/Agriculture/Engineering Graphics/Business Studies/Entrepreneurship; minimum 45% aggregate in the three subjects (40% for SC/ST/OBC-A/OBC-B/PwD); and at least 30% in English" 
+age_limit: "Minimum 17 years; no upper age limit except 25 years for Marine Engineering" 
+eligibility_details: "Citizen of India or OCI (subject to competent authority approval; OCI eligible only for Unreserved seats in All-India quota); passed 10+2 or equivalent before the admission year or appearing in the same year; 10+2 must include Physics and Mathematics plus one approved subject; aggregate of at least 45% (40% for SC/ST/OBC-A/OBC-B/PwD) in the three subjects and minimum 30% in English; qualifying board recognized by Central/State government; institute/University-specific and domicile requirements may apply for certain seats; lower age limit 17 years, no upper limit except 25 for Marine Engineering" 
+
+
 application_months: ["January", "February"] 
 exam_months: ["April"] 
 notification_pattern: "Information Bulletin and exam date are announced online on the official WBJEEB websites in late December or early January; yearly exam schedule is posted and then detailed notification/Information Bulletin follows with registration start in January." 
@@ -65,9 +62,9 @@ latest_notification: "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf4
 last_verified: "04/09/2025" 
 verified_by: "anmol-005" 
 
-# Additional searchable fields - improves discoverability
+
 keywords: ["WBJEE", "West Bengal Joint Entrance Exam", "WBJEEB", "West Bengal engineering entrance", "B.Tech admission West Bengal", "WBJEE Pharmacy", "WBJEE Architecture", "WBJEE application dates", "WBJEE exam date", "WBJEE eligibility", "WBJEE counseling", "WBJEE exam centres", "WBJEE information bulletin"] 
 locations: ["State-level: West Bengal", "Exam centres: West Bengal (all districts/cities as notified), Assam (Silchar), Tripura (Agartala)"] # Where exam is conducted - National/State(s)/Region(s)/Cities
 
-# Status tracking
+
 status: "" # active|discontinued|irregular
