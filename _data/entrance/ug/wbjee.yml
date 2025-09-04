@@ -56,19 +56,18 @@ age_limit: "Minimum 17 years; no upper age limit except 25 years for Marine Engi
 eligibility_details: "Citizen of India or OCI (subject to competent authority approval; OCI eligible only for Unreserved seats in All-India quota); passed 10+2 or equivalent before the admission year or appearing in the same year; 10+2 must include Physics and Mathematics plus one approved subject; aggregate of at least 45% (40% for SC/ST/OBC-A/OBC-B/PwD) in the three subjects and minimum 30% in English; qualifying board recognized by Central/State government; institute/University-specific and domicile requirements may apply for certain seats; lower age limit 17 years, no upper limit except 25 for Marine Engineering" # Full detailed eligibility statement
 
 # Timeline information
-application_months: [] # List of months when applications typically open, e.g., ["January", "March"]
-exam_months: [] # List of months when exam is typically held, e.g., ["May", "June"]
-notification_pattern: "" # How and when are notifications issued
+application_months: ["January", "February"] 
+exam_months: ["April"] 
+notification_pattern: "Information Bulletin and exam date are announced online on the official WBJEEB websites in late December or early January; yearly exam schedule is posted and then detailed notification/Information Bulletin follows with registration start in January." 
 
-# Verification - CRUCIAL for maintaining data quality
-official_website: "" # URL to official exam/conducting body website
-latest_notification: "" # URL to most recent notification/PDF/announcement
-last_verified: "" # Date when information was last verified (YYYY-MM-DD)
-verified_by: "" # GitHub username of person who verified this information
+official_website: "https://wbjeeb.nic.in/wbjee/" 
+latest_notification: "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2025/08/20250826205956534.pdf"
+last_verified: "04/09/2025" 
+verified_by: "anmol-005" 
 
 # Additional searchable fields - improves discoverability
-keywords: [] # List of tags, alternative names, related terms for better search
-locations: [] # Where exam is conducted - National/State(s)/Region(s)/Cities
+keywords: ["WBJEE", "West Bengal Joint Entrance Exam", "WBJEEB", "West Bengal engineering entrance", "B.Tech admission West Bengal", "WBJEE Pharmacy", "WBJEE Architecture", "WBJEE application dates", "WBJEE exam date", "WBJEE eligibility", "WBJEE counseling", "WBJEE exam centres", "WBJEE information bulletin"] 
+locations: ["State-level: West Bengal", "Exam centres: West Bengal (all districts/cities as notified), Assam (Silchar), Tripura (Agartala)"] # Where exam is conducted - National/State(s)/Region(s)/Cities
 
 # Status tracking
 status: "" # active|discontinued|irregular
