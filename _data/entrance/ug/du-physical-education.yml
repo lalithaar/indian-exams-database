@@ -1,0 +1,45 @@
+# Entrance Exam Template for indian-exams-database
+# Copy this template and fill in the details for each exam
+# Remove comments and placeholder text when filling
+
+# Basic identification
+id: "du-physical-education" # unique_short_id, should match filename without .yml
+name: "" # Full Exam Name
+acronym: "" # Acronym/Short Name (if any)
+description: "" # Concise purpose and scope of exam
+
+# Categorization - helps with filtering and search
+domain: "" # Broad domain, e.g., Engineering/Medical/Research/Law/Design
+field: [] # List of main fields, e.g., ["Physics", "Engineering", "Energy Science"]
+specializations: [] # List of specializations/disciplines covered
+
+# Exam classification
+level: "" # undergraduate|postgraduate|doctoral
+exam_type: "entrance" # Keep as "entrance" for entrance exams
+target_role: "" # Degree/Program/Course offered through this exam
+conducting_body: "" # Official Conducting Authority
+frequency: "" # annual|biannual|irregular|on-demand
+exam_mode: "" # online|offline|written|interview|hybrid
+
+# Eligibility requirements
+min_qualification: "" # Minimum educational qualification
+age_limit: "" # Max/min age, if any (write "No age limit" if none)
+eligibility_details: "" # Full detailed eligibility statement
+
+# Timeline information
+application_months: [] # List of months when applications typically open, e.g., ["January", "March"]
+exam_months: [] # List of months when exam is typically held, e.g., ["May", "June"]
+notification_pattern: "" # How and when are notifications issued
+
+# Verification - CRUCIAL for maintaining data quality
+official_website: "" # URL to official exam/conducting body website
+latest_notification: "" # URL to most recent notification/PDF/announcement
+last_verified: "" # Date when information was last verified (YYYY-MM-DD)
+verified_by: "" # GitHub username of person who verified this information
+
+# Additional searchable fields - improves discoverability
+keywords: [] # List of tags, alternative names, related terms for better search
+locations: [] # Where exam is conducted - National/State(s)/Region(s)/Cities
+
+# Status tracking
+status: "" # active|discontinued|irregular
