@@ -7,23 +7,53 @@ name: "West Bengal Joint Entrance Examination"
 acronym: "WBJEE" 
 description: "State-level entrance exam for UG admission in Engineering, Technology, Pharmacy, and Architecture programs in West Bengal conducted by West Bengal Joint Entrance Examination Board (WBJEEB)" 
 
-# Categorization - helps with filtering and search
-domain: "" # Broad domain, e.g., Engineering/Medical/Research/Law/Design
+domain: "Engineering" 
 field: ["Engineering", "Technology", "Pharmacy", "Architecture"]
-specializations: [] # List of specializations/disciplines covered
+specializations: [
+"Artificial Intelligence (AI)",
+"Artificial Intelligence and Data Science",
+"Artificial Intelligence and Machine Learning",
+"Agricultural Engineering",
+"Apparel Production Management",
+"Architectural Engineering",
+"Architecture (B.Arch)",
+"Biomedical Engineering",
+"Biotechnology Engineering",
+"Chemical Engineering",
+"Civil Engineering",
+"Computer Science and Engineering",
+"CSE (Artificial Intelligence and Machine Learning)",
+"CSE (Data Science)",
+"CSE (IoT and Cyber Security including Blockchain)",
+"Computer Science and Business Systems",
+"Computer Science and Technology",
+"Construction Engineering",
+"Cyber Security",
+"Electrical Engineering",
+"Electronics and Communication Engineering",
+"Electronics and Telecommunication Engineering",
+"Food Technology and Biochemical Engineering",
+"Information Technology",
+"Instrumentation and Electronics Engineering",
+"Mechanical Engineering",
+"Metallurgical Engineering",
+"Power Engineering",
+"Printing Engineering/Technology",
+"Production Engineering",
+"Textile Technology",
+"Pharmacy (B.Pharm)"
+] 
 
-# Exam classification
 level: "undergraduate" 
 exam_type: "entrance"
-target_role: "" # Degree/Program/Course offered through this exam
-conducting_body: "" # Official Conducting Authority
-frequency: "" # annual|biannual|irregular|on-demand
-exam_mode: "" # online|offline|written|interview|hybrid
-
+target_role: "Undergraduate admission to B.E./B.Tech, B.Pharm, and B.Arch programs in West Bengal" 
+conducting_body: "West Bengal Joint Entrance Examinations Board (WBJEEB)" 
+frequency: "annual" 
+exam_mode: "offline written (OMR-based)" 
 # Eligibility requirements
-min_qualification: "" # Minimum educational qualification
-age_limit: "" # Max/min age, if any (write "No age limit" if none)
-eligibility_details: "" # Full detailed eligibility statement
+min_qualification: "10+2 (or equivalent) with Physics and Mathematics plus one of Chemistry/Computer Science/Electronics/IT/Biology/Informatics Practices/Biotechnology/Technical Vocational Subject/Agriculture/Engineering Graphics/Business Studies/Entrepreneurship; minimum 45% aggregate in the three subjects (40% for SC/ST/OBC-A/OBC-B/PwD); and at least 30% in English" # Minimum educational qualification
+age_limit: "Minimum 17 years; no upper age limit except 25 years for Marine Engineering" # Max/min age, if any (write "No age limit" if none)
+eligibility_details: "Citizen of India or OCI (subject to competent authority approval; OCI eligible only for Unreserved seats in All-India quota); passed 10+2 or equivalent before the admission year or appearing in the same year; 10+2 must include Physics and Mathematics plus one approved subject; aggregate of at least 45% (40% for SC/ST/OBC-A/OBC-B/PwD) in the three subjects and minimum 30% in English; qualifying board recognized by Central/State government; institute/University-specific and domicile requirements may apply for certain seats; lower age limit 17 years, no upper limit except 25 for Marine Engineering" # Full detailed eligibility statement
 
 # Timeline information
 application_months: [] # List of months when applications typically open, e.g., ["January", "March"]
