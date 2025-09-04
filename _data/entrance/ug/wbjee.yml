@@ -2,20 +2,19 @@
 # Copy this template and fill in the details for each exam
 # Remove comments and placeholder text when filling
 
-# Basic identification
-id: "wbjee" # unique_short_id, should match filename without .yml
-name: "" # Full Exam Name
-acronym: "" # Acronym/Short Name (if any)
-description: "" # Concise purpose and scope of exam
+id: "wbjee" 
+name: "West Bengal Joint Entrance Examination" 
+acronym: "WBJEE" 
+description: "State-level entrance exam for UG admission in Engineering, Technology, Pharmacy, and Architecture programs in West Bengal conducted by West Bengal Joint Entrance Examination Board (WBJEEB)" 
 
 # Categorization - helps with filtering and search
 domain: "" # Broad domain, e.g., Engineering/Medical/Research/Law/Design
-field: [] # List of main fields, e.g., ["Physics", "Engineering", "Energy Science"]
+field: ["Engineering", "Technology", "Pharmacy", "Architecture"]
 specializations: [] # List of specializations/disciplines covered
 
 # Exam classification
-level: "" # undergraduate|postgraduate|doctoral
-exam_type: "entrance" # Keep as "entrance" for entrance exams
+level: "undergraduate" 
+exam_type: "entrance"
 target_role: "" # Degree/Program/Course offered through this exam
 conducting_body: "" # Official Conducting Authority
 frequency: "" # annual|biannual|irregular|on-demand
