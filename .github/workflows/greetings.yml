@@ -1,0 +1,25 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: |
+          🐰 Hello and welcome to IndiaExams Database!  
+          Thanks so much for opening your first issue here. Your curiosity and help make this project shine!  
+          Please check out our [Contributing Guidelines](https://github.com/lalithaar/indian-exams-database#contributing-yes-please) to see how you can add or verify exams.  
+          Every bit you contribute helps students across India discover new opportunities they never knew existed.  
+          Feel free to ask questions and join our wonderful community. Happy contributing! 🎓✨
+        pr-message: |
+          🐰 Hi there! Thanks for your first Pull Request to IndiaExams Database!  
+          Your effort to improve this living database is truly appreciated.  
+          If you haven’t already, please check our [Contributing Guidelines](https://github.com/lalithaar/indian-exams-database#contributing-yes-please) to help guide PR reviews and verification steps.  
+          Contributors like you help thousands of students find exams that could change their lives. Keep up the great work! 🎉📚
