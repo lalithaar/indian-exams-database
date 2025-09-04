@@ -4,42 +4,42 @@
 
 # Basic identification
 id: "whistling-woods" # unique_short_id, should match filename without .yml
-name: "" # Full Exam Name
-acronym: "" # Acronym/Short Name (if any)
-description: "" # Concise purpose and scope of exam
+name: "Whistling Woods International Entrance Exam" # Full Exam Name
+acronym: "WWI Entrance Exam" # Acronym/Short Name (if any)
+description: "Entrance examination for admission to various undergraduate, postgraduate and diploma programmes in film, communication, creative and performing arts at Whistling Woods International." # Concise purpose and scope of exam
 
 # Categorization - helps with filtering and search
-domain: "" # Broad domain, e.g., Engineering/Medical/Research/Law/Design
-field: [] # List of main fields, e.g., ["Physics", "Engineering", "Energy Science"]
-specializations: [] # List of specializations/disciplines covered
+domain: "Design/Creative Arts" # Broad domain, e.g., Engineering/Medical/Research/Law/Design
+field: ["Film Making", "Media & Communication", "Animation & Design", "Fashion Design", "Acting", "Music"] # List of main fields, e.g., ["Physics", "Engineering", "Energy Science"]
+specializations: ["Filmmaking", "Screenwriting", "Animation", "Game Design", "Visual Communication Design", "Fashion Design", "Acting", "Media & Entertainment Management", "Music Production"] # List of specializations/disciplines covered
 
 # Exam classification
-level: "" # undergraduate|postgraduate|doctoral
+level: "undergraduate|postgraduate|doctoral" # undergraduate|postgraduate|doctoral
 exam_type: "entrance" # Keep as "entrance" for entrance exams
-target_role: "" # Degree/Program/Course offered through this exam
-conducting_body: "" # Official Conducting Authority
-frequency: "" # annual|biannual|irregular|on-demand
-exam_mode: "" # online|offline|written|interview|hybrid
+target_role: "Admission to degree or diploma programmes in creative arts (e.g., B.Des, B.Sc, MA, MBA, etc.)" # Degree/Program/Course offered through this exam
+conducting_body: "Whistling Woods International (in association with TISS for select programmes)" # Official Conducting Authority
+frequency: "annual" # annual|biannual|irregular|on-demand
+exam_mode: "online (computer-based test) + additional components (SOP, interview, GD/viva)" # online|offline|written|interview|hybrid
 
 # Eligibility requirements
-min_qualification: "" # Minimum educational qualification
-age_limit: "" # Max/min age, if any (write "No age limit" if none)
-eligibility_details: "" # Full detailed eligibility statement
+min_qualification: "Class 12 for UG; Graduation for PG" # Minimum educational qualification
+age_limit: "No specific age limit (practical minimum ~17 years for UG due to Class 12 requirement)" # Max/min age, if any (write "No age limit" if none)
+eligibility_details: "UG: Passed Class 12 or equivalent from a recognized board; PG: Graduation in any discipline from a recognized university. No specific age limit is prescribed (practically, UG applicants are usually 17+). Admission is based on performance in the WWI entrance process (aptitude tests, SOP, interview, and other program-specific evaluations)." # Full detailed eligibility statement
 
 # Timeline information
-application_months: [] # List of months when applications typically open, e.g., ["January", "March"]
-exam_months: [] # List of months when exam is typically held, e.g., ["May", "June"]
-notification_pattern: "" # How and when are notifications issued
+application_months: ["July", "August", "September"] # List of months when applications typically open, e.g., ["January", "March"]
+exam_months: ["January", "April"] # List of months when exam is typically held, e.g., ["May", "June"]
+notification_pattern: "Exam schedules and admissions are announced via the official WWI website and media releases, usually around January and April; specific programmes receive their exam dates individually after applications open." # How and when are notifications issued
 
 # Verification - CRUCIAL for maintaining data quality
-official_website: "" # URL to official exam/conducting body website
-latest_notification: "" # URL to most recent notification/PDF/announcement
-last_verified: "" # Date when information was last verified (YYYY-MM-DD)
-verified_by: "" # GitHub username of person who verified this information
+official_website: "https://www.whistlingwoods.net/admissions/" # URL to official exam/conducting body website
+latest_notification: "https://www.business-standard.com/content/press-releases-ani/whistling-woods-international-announces-admissions-for-july-2025-intake-entrance-exam-scheduled-from-april-24-to-26-2025-125042300002_1.html" # URL to most recent notification/PDF/announcement
+last_verified: "2025-09-04" # Date when information was last verified (YYYY-MM-DD)
+verified_by: "24f2006661" # GitHub username of person who verified this information
 
 # Additional searchable fields - improves discoverability
-keywords: [] # List of tags, alternative names, related terms for better search
-locations: [] # Where exam is conducted - National/State(s)/Region(s)/Cities
+keywords: ["WWI", "WWI entrance", "Whistling Woods admissions", "MECAT", "Creative Aptitude Test", "MECAT exam"] # List of tags, alternative names, related terms for better search
+locations: ["National (India) – Mumbai campus"] # Where exam is conducted - National/State(s)/Region(s)/Cities
 
 # Status tracking
-status: "" # active|discontinued|irregular
+status: "active" # active|discontinued|irregular
