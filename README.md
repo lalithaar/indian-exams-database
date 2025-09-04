@@ -47,12 +47,19 @@ We welcome contributions from everyone! There are two main ways you can help:
 - This two-step process keeps the database reliable and up-to-date.
 
 ### Steps to Contribute
-1. Check the issues tab and **choose an exam**
-2. **Fork this repo** (click the green button up top)
-3. **Go to the file** mentioned in the issue ( the exam-name.yml usually )
-4. **Fill in the details according to the template and guidelines**
-5. **Submit a Pull Request referencing the relevant issue**
-6. **Verifiers will review, comment, and approve the PR before merge**
+   No scary terminal commands needed!
+
+You just need: A GitHub account (it's free!)
+
+#### Quick Start:
+1. Sign up for GitHub at github.com if you don't have an account
+2. Check the issues tab and **choose an exam**
+3. Click the pencil icon (✏️) on the exam's file mentioned in the issue ( the exam-name.yml usually )
+4. It will ask to make a fork, say yes to edit it directly in your browser
+5. **Fill in the details according to the template and guidelines**
+6. Click "Propose changes" - this creates what we call a "pull request" make sure to mention the relevant issue like 'closes #issue-number you can find at the end of the issue's url
+7. Wait for review - someone will look at your changes and comment to approve them!
+That's it! No software to install, no commands to remember. GitHub handles everything in your browser.
 
 ### Golden Rules
 - **Original sources mandatory:** Link to official websites or notifications.
