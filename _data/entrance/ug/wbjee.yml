@@ -67,4 +67,4 @@ keywords: ["WBJEE", "West Bengal Joint Entrance Exam", "WBJEEB", "West Bengal en
 locations: ["State-level: West Bengal", "Exam centres: West Bengal (all districts/cities as notified), Assam (Silchar), Tripura (Agartala)"] # Where exam is conducted - National/State(s)/Region(s)/Cities
 
 
-status: "" # active|discontinued|irregular
+exam_status: "active" 
