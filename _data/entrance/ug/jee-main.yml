@@ -1,45 +1,40 @@
-# Entrance Exam Template for indian-exams-database
-# Copy this template and fill in the details for each exam
-# Remove comments and placeholder text when filling
+id: "jee-main" 
+name: "Joint Entrance Examination – Main"
+acronym: "JEE Main" 
+description: "A national-level entrance examination for admission to undergraduate engineering, architecture, and planning courses in India. It serves as an admission test for National Institutes of Technology (NITs), Indian Institutes of Information Technology (IIITs), and other Centrally Funded Technical Institutions (CFTIs), and is also the eligibility test for JEE Advanced." 
 
-# Basic identification
-id: "jee-main" # unique_short_id, should match filename without .yml
-name: "" # Full Exam Name
-acronym: "" # Acronym/Short Name (if any)
-description: "" # Concise purpose and scope of exam
 
-# Categorization - helps with filtering and search
-domain: "" # Broad domain, e.g., Engineering/Medical/Research/Law/Design
-field: [] # List of main fields, e.g., ["Physics", "Engineering", "Energy Science"]
-specializations: [] # List of specializations/disciplines covered
+domain: "Engineering" 
+field: ["Engineering", "Architecture", "Planning"] 
+specializations: ["B.E.", "B.Tech", "B.Arch", "B.Plan"] 
 
-# Exam classification
-level: "" # undergraduate|postgraduate|doctoral
-exam_type: "entrance" # Keep as "entrance" for entrance exams
-target_role: "" # Degree/Program/Course offered through this exam
-conducting_body: "" # Official Conducting Authority
-frequency: "" # annual|biannual|irregular|on-demand
-exam_mode: "" # online|offline|written|interview|hybrid
 
-# Eligibility requirements
-min_qualification: "" # Minimum educational qualification
-age_limit: "" # Max/min age, if any (write "No age limit" if none)
-eligibility_details: "" # Full detailed eligibility statement
+level: "undergraduate" 
+exam_type: "entrance" 
+target_role: "Admission to B.E./B.Tech, B.Arch, and B.Plan programs"
+conducting_body: "National Testing Agency (NTA)" 
+frequency: "biannual"
+exam_mode: "online, Computer Based Test (CBT), except for the Drawing Test in B.Arch." 
 
-# Timeline information
-application_months: [] # List of months when applications typically open, e.g., ["January", "March"]
-exam_months: [] # List of months when exam is typically held, e.g., ["May", "June"]
-notification_pattern: "" # How and when are notifications issued
 
-# Verification - CRUCIAL for maintaining data quality
-official_website: "" # URL to official exam/conducting body website
-latest_notification: "" # URL to most recent notification/PDF/announcement
-last_verified: "" # Date when information was last verified (YYYY-MM-DD)
-verified_by: "" # GitHub username of person who verified this information
+min_qualification: "Passed 10+2 (or equivalent) examination"
+age_limit: "No age limit" 
+eligibility_details: "Candidates should have passed the Class 12 or equivalent examination in 2024, 2025, or be appearing in 2026. For B.E/B.Tech, Physics and Mathematics are compulsory subjects, along with one from Chemistry/Biotechnology/Biology/Technical Vocational subject. For B.Arch, Physics, Chemistry, and Mathematics are compulsory. For B.Plan, Mathematics is a compulsory subject." 
 
-# Additional searchable fields - improves discoverability
-keywords: [] # List of tags, alternative names, related terms for better search
-locations: [] # Where exam is conducted - National/State(s)/Region(s)/Cities
 
-# Status tracking
-status: "" # active|discontinued|irregular
+application_months: ["November", "February"] # Corresponds to the two sessions
+exam_months:  ["January", "April"] # Corresponds to the two sessions
+notification_pattern: "Official notifications are released on the NTA and JEE Main websites, usually in November for the first session." 
+
+
+official_website: "https://jeemain.nta.nic.in/"
+latest_notification: "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/05/20250523100.pdf" 
+last_verified: "05-09-2025" 
+verified_by: "anmol-005" 
+
+
+keywords: ["JEE", "NTA", "Engineering Entrance", "AIEEE", "NIT", "IIIT", "CFTI", "B.Tech Admission", "Joint Entrance Examination"]
+locations: ["National"] # Conducted across India and in various international cities
+
+
+exam_status: "active"
