@@ -3,43 +3,45 @@
 # Remove comments and placeholder text when filling
 
 # Basic identification
-id: "kvpy" # unique_short_id, should match filename without .yml
-name: "" # Full Exam Name
-acronym: "" # Acronym/Short Name (if any)
-description: "" # Concise purpose and scope of exam
+id: "kvpy" 
+name: "Kishore Vaigyanik Protsahan Yojana" # Full Exam Name
+acronym: "KVPY"
+description: "Kishore Vaigyanik Protsahan Yojana (KVPY) was a DST-funded national fellowship, administered by IISc, to identify and nurture research‑oriented students in basic sciences (SA/SX/SB) through scholarships and mentorship to foster science careers." 
 
 # Categorization - helps with filtering and search
-domain: "" # Broad domain, e.g., Engineering/Medical/Research/Law/Design
-field: [] # List of main fields, e.g., ["Physics", "Engineering", "Energy Science"]
-specializations: [] # List of specializations/disciplines covered
+domain: "Research (Basic and Natural Sciences)" 
+field: ["Physics", "Chemistry", "Mathematics", "Biology", "Statistics"] 
+specializations: ["Physics", "Chemistry", "Mathematics", "Biology", "Statistics"] 
 
 # Exam classification
-level: "" # undergraduate|postgraduate|doctoral
-exam_type: "entrance" # Keep as "entrance" for entrance exams
-target_role: "" # Degree/Program/Course offered through this exam
-conducting_body: "" # Official Conducting Authority
-frequency: "" # annual|biannual|irregular|on-demand
-exam_mode: "" # online|offline|written|interview|hybrid
+level: "undergraduate" 
+exam_type: "entrance" 
+target_role: "DST-funded fellowships in basic sciences (B.Sc./B.S./B.Stat./B.Math./Int. M.Sc./M.S.); used for UG admission consideration at select institutes" # Degree/Program/Course offered through this exam
+conducting_body: "Indian Institute of Science (IISc) on behalf of the Department of Science & Technology (DST), Government of India" # Official Conducting Authority
+frequency: "annual" 
+exam_mode: "online" 
 
 # Eligibility requirements
-min_qualification: "" # Minimum educational qualification
-age_limit: "" # Max/min age, if any (write "No age limit" if none)
-eligibility_details: "" # Full detailed eligibility statement
+min_qualification: "Class 11 (SA), Class 12 (SX), or 1st-year UG in basic sciences (B.Sc./B.S./B.Stat./B.Math./Int. M.Sc./Int. M.S.)" # Minimum educational qualification
+age_limit: "No age limit" # Max/min age, if any (write "No age limit" if none)
+eligibility_details: "Eligibility for each stream includes passing the previous class with a minimum of 75% marks (65% for SC/ST/PwD) and being enrolled in a science-related stream. " # Full detailed eligibility statement
 
 # Timeline information
-application_months: [] # List of months when applications typically open, e.g., ["January", "March"]
-exam_months: [] # List of months when exam is typically held, e.g., ["May", "June"]
-notification_pattern: "" # How and when are notifications issued
+application_months: ["July", "August"] # List of months when applications typically open, e.g., ["January", "March"]
+exam_months: ["November"] # List of months when exam is typically held, e.g., ["May", "June"]
+notification_pattern: "Annual notification typically released around July via IISc/KVPY; aptitude test in November and interviews Jan–Feb; from 2022, DST merged KVPY with INSPIRE, so separate KVPY notifications ceased" # How and when are notifications issued
 
 # Verification - CRUCIAL for maintaining data quality
-official_website: "" # URL to official exam/conducting body website
-latest_notification: "" # URL to most recent notification/PDF/announcement
-last_verified: "" # Date when information was last verified (YYYY-MM-DD)
-verified_by: "" # GitHub username of person who verified this information
+official_website: "https://www.kvpy.iisc.ernet.in/main/index.htm" # won't work as it has been discontinued
+latest_notification: "https://dst.gov.in/inspire-she-encourage-talented-students-towards-science-research-careers-without-kvpy-examination" # this proves the statement made above.
+#Also you may read this notice--> https://online-inspire.gov.in/Images/Notice/Notice_for_KVPY.pdf 
+
+last_verified: "2025-09-15" # Date when information was last verified (YYYY-MM-DD)
+verified_by: "24f1000161" # GitHub username of person who verified this information
 
 # Additional searchable fields - improves discoverability
-keywords: [] # List of tags, alternative names, related terms for better search
-locations: [] # Where exam is conducted - National/State(s)/Region(s)/Cities
+keywords: ["iisc", "kvpy", "iisc-kvpy", "dst"] # List of tags, alternative names, related terms for better search
+locations: ["National"] # Where exam is conducted - National/State(s)/Region(s)/Cities
 
 # Status tracking
-status: "" # active|discontinued|irregular
+status: "discontinued" ### subsumed with the INSPIRE-SHE component
