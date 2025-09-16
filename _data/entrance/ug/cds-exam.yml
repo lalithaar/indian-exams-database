@@ -4,42 +4,97 @@
 
 # Basic identification
 id: "cds-exam" # unique_short_id, should match filename without .yml
-name: "" # Full Exam Name
-acronym: "" # Acronym/Short Name (if any)
-description: "" # Concise purpose and scope of exam
+name: "Combat Defence Services Exam" # Full Exam Name
+acronym: "CDS" # Acronym/Short Name (if any)
+description: "Entrance exam to admit candidates into the various courses of the Indian Defence Academies (i.e. IMA, INA, AFA, OTA) through the Combined Defence Services Examination." # Concise purpose and scope of exam
 
 # Categorization - helps with filtering and search
-domain: "" # Broad domain, e.g., Engineering/Medical/Research/Law/Design
-field: [] # List of main fields, e.g., ["Physics", "Engineering", "Energy Science"]
-specializations: [] # List of specializations/disciplines covered
+domain: "Defence and Armed Forces (Military/Uniformed Services)." # Broad domain, e.g., Engineering/Medical/Research/Law/Design
+field: ["Defence Studies", "Military Science", "Engineering", "General Graduation (Any Discipline)", "Physics & Mathematics"]
+specializations: [
+  - "Any Graduate (all disciplines) for IMA(Indian Militiary Academy) and OTA(Ofiicer's Training Academy)"
+  - "Engineering (any branch) for INA(Indian Naval Academy) and AFA(Air Force Academy)"
+  - "Graduation with Physics and Mathematics at 10+2 level for AFA(Air Force Academy)"
+] # List of specializations/disciplines covered
 
 # Exam classification
-level: "" # undergraduate|postgraduate|doctoral
+level: "Undergaduate" # undergraduate|postgraduate|doctoral
 exam_type: "entrance" # Keep as "entrance" for entrance exams
-target_role: "" # Degree/Program/Course offered through this exam
-conducting_body: "" # Official Conducting Authority
-frequency: "" # annual|biannual|irregular|on-demand
-exam_mode: "" # online|offline|written|interview|hybrid
+target_role: "“Pre-Commission Training Courses for Commissioned Officer roles in the Indian Armed Forces.”" # Degree/Program/Course offered through this exam
+conducting_body: "UPSC(Union Public Service Commission)" # Official Conducting Authority
+frequency: "binanual" # annual|biannual|irregular|on-demand
+exam_mode: "Written" # online|offline|written|interview|hybrid
 
 # Eligibility requirements
-min_qualification: "" # Minimum educational qualification
-age_limit: "" # Max/min age, if any (write "No age limit" if none)
-eligibility_details: "" # Full detailed eligibility statement
+minimum_educational_qualifications:
+  - academy: "Indian Military Academy (IMA)"
+    qualification: "Degree of a recognised University or equivalent"
+
+  - academy: "Officers’ Training Academy (OTA, Chennai)"
+    qualification: "Degree of a recognised University or equivalent"
+
+  - academy: "Indian Naval Academy (INA)"
+    qualification: "Degree in Engineering from a recognised University/Institution"
+
+  - academy: "Air Force Academy (AFA)"
+    qualification: "Degree of a recognised University (with Physics and Mathematics at 10+2 level) OR Bachelor of Engineering" # Minimum educational qualification
+age_limit: "19 to 24" # Max/min age, if any (write "No age limit" if none)
+eligibility_details:
+  nationality:
+    - "Citizen of India"
+    - "Subject of Nepal"
+    - "Person of Indian origin who has migrated from Pakistan, Burma, Sri Lanka and East African countries of Kenya, Uganda, Tanzania, Zambia, Malawi, Zaire, Ethiopia or Vietnam with the intention of permanently settling in India (certificate of eligibility required, except for Gorkhas of Nepal)."
+
+  age_limits_sex_marital_status:
+    - academy: "Indian Military Academy (IMA)"
+      requirement: "Unmarried male candidates born between 2nd July 2002 and 1st July 2007"
+
+    - academy: "Indian Naval Academy (INA)"
+      requirement: "Unmarried male candidates born between 2nd July 2002 and 1st July 2007"
+
+    - academy: "Air Force Academy (AFA)"
+      requirement: "20 to 24 years as on 1st July 2026 (born between 2nd July 2002 and 1st July 2006); upper age limit 26 years for candidates holding valid Commercial Pilot Licence issued by DGCA (India); candidates below 25 must be unmarried; marriage not permitted during training."
+
+    - academy: "Officers’ Training Academy (OTA, Men)"
+      requirement: "Unmarried male candidates born between 2nd July 2001 and 1st July 2007"
+
+    - academy: "Officers’ Training Academy (OTA, Women)"
+      requirement: "Unmarried women, issueless widows who have not remarried, and issueless divorcees who have not remarried; born between 2nd July 2001 and 1st July 2007"
+
+  educational_qualifications:
+    - academy: "Indian Military Academy (IMA)"
+      qualification: "Degree of a recognised University or equivalent"
+
+    - academy: "Officers’ Training Academy (OTA, Chennai)"
+      qualification: "Degree of a recognised University or equivalent"
+
+    - academy: "Indian Naval Academy (INA)"
+      qualification: "Degree in Engineering from a recognised University/Institution"
+
+    - academy: "Air Force Academy (AFA)"
+      qualification: "Degree of a recognised University (with Physics and Mathematics at 10+2 level) OR Bachelor of Engineering"
+
+    - note: "Final year/semester students can apply provided they submit proof of passing the degree by the prescribed date before commencement of course."
+
+  physical_standards:
+    - requirement: "Candidates must be physically fit according to the prescribed physical standards in Appendix-III of the notification."
+    # Full detailed eligibility statement
 
 # Timeline information
-application_months: [] # List of months when applications typically open, e.g., ["January", "March"]
-exam_months: [] # List of months when exam is typically held, e.g., ["May", "June"]
-notification_pattern: "" # How and when are notifications issued
+application_months: ["December\January","May\June"] # List of months when applications typically open, e.g., ["January", "March"]
+exam_months: ["April","September"] # List of months when exam is typically held, e.g., ["May", "June"]
+notification_pattern: "Notification are generally issued biannualy in the month of January and May on the offical website of UPSC" # How and when are notifications issued
 
 # Verification - CRUCIAL for maintaining data quality
-official_website: "" # URL to official exam/conducting body website
-latest_notification: "" # URL to most recent notification/PDF/announcement
+official_website: "upsc.gov.in" # URL to official exam/conducting body website
+latest_notification: "https://upsc.gov.in/sites/default/files/Notifi-CDSE-II-2025-Engl.pdf" # URL to most recent notification/PDF/announcement
 last_verified: "" # Date when information was last verified (YYYY-MM-DD)
-verified_by: "" # GitHub username of person who verified this information
+verified_by: "Praveen3444" # GitHub username of person who verified this information
 
 # Additional searchable fields - improves discoverability
-keywords: [] # List of tags, alternative names, related terms for better search
-locations: [] # Where exam is conducted - National/State(s)/Region(s)/Cities
+keywords: ["CDS","Combined Defence Services Examination","UPSC Defence Exam","UPSC CDS I"
+,"UPSC CDS II","UPSC CDS Notification","UPSC CDS Eligibility"] # List of tags, alternative names, related terms for better search
+locations: ["National"] # Where exam is conducted - National/State(s)/Region(s)/Cities
 
 # Status tracking
-status: "" # active|discontinued|irregular
+status: "active" # active|discontinued|irregular
