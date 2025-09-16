@@ -1,45 +1,58 @@
-# Entrance Exam Template for indian-exams-database
-# Copy this template and fill in the details for each exam
-# Remove comments and placeholder text when filling
+id: "nda"
+name: "National Defence Academy Exam"
+acronym: "NDA"
+description: "The NDA examination aims to select candidates for admission to the Army, Navy, and Air Force wings of the National Defence Academy (NDA) and the 10+2 Cadet Entry Scheme of the Indian Naval Academy (INAC). Successful candidates undergo training to become officers in the Indian Armed Forces." # Concise purpose and scope of exam
 
-# Basic identification
-id: "nda" # unique_short_id, should match filename without .yml
-name: "" # Full Exam Name
-acronym: "" # Acronym/Short Name (if any)
-description: "" # Concise purpose and scope of exam
+domain: "The broad domain of the NDA examination is Defence / Military Leadership."
+field: ["Indian Militiary", "Air Force", "Naval Academy"] 
+level: "10+2 level"
+exam_type: "entrance"
+target_role: "National Defence Academy (Army, Navy, Air Force) – 3-year pre-commission training program at NDA(National Defence Academy) khadakwasla Pune + 1 year in their respective training academy(IMA,INA and AFA) " # Degree/Program/Course offered through this exam
+conducting_body: "UPSC(Union Public Service Commission)"
+frequency: "biannual"
+exam_mode: "Offline Written exam + SSB Interview + Medical Exam"
 
-# Categorization - helps with filtering and search
-domain: "" # Broad domain, e.g., Engineering/Medical/Research/Law/Design
-field: [] # List of main fields, e.g., ["Physics", "Engineering", "Energy Science"]
-specializations: [] # List of specializations/disciplines covered
+min_qualification:"Higher Secondary pass of a recognized board or equivalent (12th Pass)" # Minimum educational qualification
+age_limit: "16.5 to 19.5 years " # Max/min age, if any (write "No age limit" if none)
+eligibility_details:
+  nationality:
+    - "Indian citizen"
+    - "Subjects of Bhutan or Nepal"
+    - "Tibetan refugees who came to India before 1 January 1962"
+    - "Persons of Indian origin who migrated from Pakistan, Burma, Sri Lanka, East African countries, etc."
+  age_limit:
+    nda_wings:
+      - "16.5 to 19.5 years"
+    inac:
+      - "17 to 19 years as of 1 January 2026"
+  educational_qualification:
+    army_wing: "12th Class / Higher Secondary pass of a recognized board or equivalent"
+    airforce_naval_wings: "12th Class / Higher Secondary pass with Physics and Mathematics"
+    inac: "12th Class / Higher Secondary pass with Physics and Mathematics"
+  marital_status: "Unmarried male and female candidates only"
+  physical_standards: "Must meet the prescribed medical and physical standards as per the notification"
+application_months: ["December\January","May\June"] 
+exam_months: ["April","September"]
+notification_pattern: "Generally notifications issued in the month of January and May on the official website of UPSC" 
+official_website: "https://www.upsc.gov.in"
+latest_notification: "https://upsc.gov.in/sites/default/files/Notif-NDA-NA-II-2025-Engli.pdf" 
+last_verified: ""
+verified_by: "Praveen3444" 
+keywords: ["NDA (I)"
+  - "National Defence Academy"
+  - "UPSC NDA"
+  - "Indian Army Entry"
+  - "10+2 Cadet Entry Scheme"
+  - "Armed Forces Officer Exam"
+  - "Defence Services Exam"
+  - "UPSC Military Exam"
+  - "Army Officer Recruitment"
+  - "Naval Officer Recruitment"
+  - "Air Force Officer Recruitment"
+  - "NDA Written Exam"
+  - "SSB Interview"
+  - "UPSC NDA Notification"
+  - "National Defence Academy Recruitment"]
+locations: ["National"]
 
-# Exam classification
-level: "" # undergraduate|postgraduate|doctoral
-exam_type: "entrance" # Keep as "entrance" for entrance exams
-target_role: "" # Degree/Program/Course offered through this exam
-conducting_body: "" # Official Conducting Authority
-frequency: "" # annual|biannual|irregular|on-demand
-exam_mode: "" # online|offline|written|interview|hybrid
-
-# Eligibility requirements
-min_qualification: "" # Minimum educational qualification
-age_limit: "" # Max/min age, if any (write "No age limit" if none)
-eligibility_details: "" # Full detailed eligibility statement
-
-# Timeline information
-application_months: [] # List of months when applications typically open, e.g., ["January", "March"]
-exam_months: [] # List of months when exam is typically held, e.g., ["May", "June"]
-notification_pattern: "" # How and when are notifications issued
-
-# Verification - CRUCIAL for maintaining data quality
-official_website: "" # URL to official exam/conducting body website
-latest_notification: "" # URL to most recent notification/PDF/announcement
-last_verified: "" # Date when information was last verified (YYYY-MM-DD)
-verified_by: "" # GitHub username of person who verified this information
-
-# Additional searchable fields - improves discoverability
-keywords: [] # List of tags, alternative names, related terms for better search
-locations: [] # Where exam is conducted - National/State(s)/Region(s)/Cities
-
-# Status tracking
-status: "" # active|discontinued|irregular
+status: "active"
