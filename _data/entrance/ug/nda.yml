@@ -4,18 +4,7 @@ acronym: "NDA"
 description: "The NDA examination aims to select candidates for admission to the Army, Navy, and Air Force wings of the National Defence Academy (NDA) and the 10+2 Cadet Entry Scheme of the Indian Naval Academy (INAC). Successful candidates undergo training to become officers in the Indian Armed Forces." # Concise purpose and scope of exam
 
 domain: "The broad domain of the NDA examination is Defence / Military Leadership."
-field: ["Mathematics", "General Science", "English", "General Knowledge", "Current Affairs", "Reasoning & Intelligence"] 
-  "Physics",
-  "Chemistry",
-  "Biology",
-  "English Language and Comprehension",
-  "History",
-  "Geography",
-  "Indian Polity",
-  "Economics",
-  "Current Affairs",
-  "Logical Reasoning and Analytical Ability",
-  ] 
+field: ["Indian Militiary", "Air Force", "Naval Academy"] 
 level: "10+2 level"
 exam_type: "entrance"
 target_role: "National Defence Academy (Army, Navy, Air Force) – 3-year pre-commission training program at NDA(National Defence Academy) khadakwasla Pune + 1 year in their respective training academy(IMA,INA and AFA) " # Degree/Program/Course offered through this exam
